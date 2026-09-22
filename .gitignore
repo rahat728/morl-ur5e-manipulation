@@ -1,0 +1,28 @@
+# Large files - don't commit trained models directly (use Git LFS or external storage later)
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.ckpt
+*.bag
+*.mcap
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Secrets - never commit these
+*.pem
+*.key
+.env
+secrets.yaml
+
+# OS
+.DS_Store
+Thumbs.db
