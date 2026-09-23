@@ -26,3 +26,10 @@ secrets.yaml
 # OS
 .DS_Store
 Thumbs.db
+
+# MuJoCo runtime log
+MUJOCO_LOG.TXT
+
+# Personal planning notes (kept out of the public repo)
+4-month-plan.md
+12-month-plan.md
